@@ -1,3 +1,5 @@
-export default function page({ params: { contentId } }) {
-  return <div>{contentId}</div>;
+import ContentDisplay from "@/components/ContentDisplay";
+
+export default function Contentpage({ params: { contentId } }) {
+  return <ContentDisplay id={contentId} />;
 }
