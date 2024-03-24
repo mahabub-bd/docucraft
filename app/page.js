@@ -1,3 +1,3 @@
 export default function Home() {
-  return <div>Docu Craft</div>;
+  return <div className="text-center">Docu Craft</div>;
 }
